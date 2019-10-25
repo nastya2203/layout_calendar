@@ -19,7 +19,7 @@ $days: (
   border: 1px solid;
   background-color: #eee;
   visibility: hidden;
-  transition: all ease $day_transition_duration;
+  transition: ease $day_transition_duration;
   transition-property: all;
 
   &:hover {
