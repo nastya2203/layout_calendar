@@ -1,0 +1,11 @@
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 705px; }
+  .calendar__day {
+    margin: 1px 1px 0 0; }
+
+/*# sourceMappingURL=calendar.css.map */
