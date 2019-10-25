@@ -1,4 +1,5 @@
 .day {
+  font-family: "Old Standard TT", serif;
   width: 100px;
   height: 100px;
   -webkit-box-sizing: border-box;
@@ -12,7 +13,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid;
   background-color: #eee;
   visibility: hidden;
   -webkit-transition: ease 0.5s;

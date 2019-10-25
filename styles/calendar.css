@@ -4,7 +4,11 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 705px; }
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 705px;
+  height: 100vh;
+  margin: auto; }
   .calendar__day {
     margin: 1px 1px 0 0; }
 
