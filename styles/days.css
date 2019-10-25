@@ -14,14 +14,16 @@
           align-items: center;
   border: 1px solid;
   background-color: #eee;
-  visibility: hidden; }
+  visibility: hidden;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  -webkit-transition-property: all;
+  transition-property: all; }
   .day:hover {
     cursor: pointer;
     background-color: pink;
     -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s; }
+            transform: translateY(-20px); }
 
 .calendar-1 .calendar__day:nth-child(-n+1) {
   visibility: visible; }
