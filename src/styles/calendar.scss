@@ -3,7 +3,10 @@
 .calendar {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   width: 7 * $day_width + 5 * 1px;
+  height: 100vh;
+  margin: auto;
 
   &__day {
     margin: $vertical_indent $horizontal_indent 0 0;
