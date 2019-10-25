@@ -1,0 +1,11 @@
+@import "var";
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 7 * $day_width + 5 * 1px;
+
+  &__day {
+    margin: $vertical_indent $horizontal_indent 0 0;
+  }
+}
